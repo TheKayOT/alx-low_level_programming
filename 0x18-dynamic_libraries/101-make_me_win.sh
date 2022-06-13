@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.o -shared -o libwin.so LD_PRELOAD=$PWD/libwin.so
-./gm 9 8 10 24 75 9
+wget -P /tmp https://github.com/1373733/alx-low_level_programming/blob/master/0x18-dynamic_libraries/101-make_me_win.sh
+export LD_PRELOAD=/tmp/libmask.so
